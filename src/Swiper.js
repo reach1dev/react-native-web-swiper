@@ -123,7 +123,9 @@ class Swiper extends React.Component {
         this.props.vertical
           ? { dy: this.state.pan.y }
           : { dx: this.state.pan.x },
-      ]),
+      ], {
+        useNativeDriver: false
+      }),
       onPanResponderRelease: (e, gesture) => {
         const { vertical, minDistanceForAction } = this.props;
         const { width, height } = this.state;
