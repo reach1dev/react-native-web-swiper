@@ -1,1 +1,1 @@
-export { Swiper as default } from './Swiper';
+export { Swiper as default } from '../src/Swiper';
