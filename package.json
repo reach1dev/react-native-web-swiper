@@ -17,7 +17,7 @@
     "url": "git+https://github.com/oxyii/react-native-web-swiper.git"
   },
   "scripts": {
-    "build": "rm -rf build && babel src --out-dir build",
+    "build": "babel src --out-dir build",
     "prepare": "npm run build"
   },
   "dependencies": {
